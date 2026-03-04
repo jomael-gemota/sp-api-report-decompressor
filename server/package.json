@@ -1,0 +1,22 @@
+{
+  "name": "sp-api-report-decompressor-server",
+  "version": "1.0.0",
+  "description": "Express + MongoDB backend for SP API Report Decompressor",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "morgan": "^1.10.0",
+    "multer": "^2.1.1",
+    "sp-api-report-decompressor": "file:.."
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
